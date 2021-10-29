@@ -1,0 +1,17 @@
+D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Analys and Design Information System\Practice\HT_QL_TTTH\BUS\bin\Release\BUS.exe.config
+D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Analys and Design Information System\Practice\HT_QL_TTTH\BUS\bin\Release\BUS.exe
+D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Analys and Design Information System\Practice\HT_QL_TTTH\BUS\bin\Release\BUS.pdb
+D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Analys and Design Information System\Practice\HT_QL_TTTH\BUS\bin\Release\DAO.exe
+D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Analys and Design Information System\Practice\HT_QL_TTTH\BUS\bin\Release\DTO.exe
+D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Analys and Design Information System\Practice\HT_QL_TTTH\BUS\bin\Release\Oracle.DataAccess.dll
+D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Analys and Design Information System\Practice\HT_QL_TTTH\BUS\bin\Release\DAO.pdb
+D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Analys and Design Information System\Practice\HT_QL_TTTH\BUS\bin\Release\DAO.exe.config
+D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Analys and Design Information System\Practice\HT_QL_TTTH\BUS\bin\Release\DTO.pdb
+D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Analys and Design Information System\Practice\HT_QL_TTTH\BUS\bin\Release\DTO.exe.config
+D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Analys and Design Information System\Practice\HT_QL_TTTH\BUS\obj\Release\BUS.csproj.AssemblyReference.cache
+D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Analys and Design Information System\Practice\HT_QL_TTTH\BUS\obj\Release\BUS.Properties.Resources.resources
+D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Analys and Design Information System\Practice\HT_QL_TTTH\BUS\obj\Release\BUS.csproj.GenerateResource.cache
+D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Analys and Design Information System\Practice\HT_QL_TTTH\BUS\obj\Release\BUS.csproj.CoreCompileInputs.cache
+D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Analys and Design Information System\Practice\HT_QL_TTTH\BUS\obj\Release\BUS.csproj.CopyComplete
+D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Analys and Design Information System\Practice\HT_QL_TTTH\BUS\obj\Release\BUS.exe
+D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Analys and Design Information System\Practice\HT_QL_TTTH\BUS\obj\Release\BUS.pdb

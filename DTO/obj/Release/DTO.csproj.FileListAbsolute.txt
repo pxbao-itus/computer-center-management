@@ -1,0 +1,9 @@
+D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Analys and Design Information System\Practice\HT_QL_TTTH\DTO\bin\Release\DTO.exe.config
+D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Analys and Design Information System\Practice\HT_QL_TTTH\DTO\bin\Release\DTO.exe
+D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Analys and Design Information System\Practice\HT_QL_TTTH\DTO\bin\Release\DTO.pdb
+D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Analys and Design Information System\Practice\HT_QL_TTTH\DTO\obj\Release\DTO.csproj.AssemblyReference.cache
+D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Analys and Design Information System\Practice\HT_QL_TTTH\DTO\obj\Release\DTO.Properties.Resources.resources
+D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Analys and Design Information System\Practice\HT_QL_TTTH\DTO\obj\Release\DTO.csproj.GenerateResource.cache
+D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Analys and Design Information System\Practice\HT_QL_TTTH\DTO\obj\Release\DTO.csproj.CoreCompileInputs.cache
+D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Analys and Design Information System\Practice\HT_QL_TTTH\DTO\obj\Release\DTO.exe
+D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Analys and Design Information System\Practice\HT_QL_TTTH\DTO\obj\Release\DTO.pdb

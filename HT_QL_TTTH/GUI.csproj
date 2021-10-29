@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{19702222-86A6-47B9-8650-D2BEF9DA13C2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>HT_QL_TTTH</RootNamespace>
+    <AssemblyName>HT_QL_TTTH</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dashboard_GUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard_GUI.Designer.cs">
+      <DependentUpon>Dashboard_GUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DKCC_GUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DKCC_GUI.Designer.cs">
+      <DependentUpon>DKCC_GUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DKCC_KQ_GUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DKCC_KQ_GUI.Designer.cs">
+      <DependentUpon>DKCC_KQ_GUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DKCD_GUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DKCD_GUI.Designer.cs">
+      <DependentUpon>DKCD_GUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DKCD_KQ_GUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DKCD_KQ_GUI.Designer.cs">
+      <DependentUpon>DKCD_KQ_GUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DKHP_DKTL_GUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DKHP_DKTL_GUI.Designer.cs">
+      <DependentUpon>DKHP_DKTL_GUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DKHP_GUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DKHP_GUI.Designer.cs">
+      <DependentUpon>DKHP_GUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DKHP_KQ_GUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DKHP_KQ_GUI.Designer.cs">
+      <DependentUpon>DKHP_KQ_GUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DKHP_LM_GUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DKHP_LM_GUI.Designer.cs">
+      <DependentUpon>DKHP_LM_GUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DSHP_GUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DSHP_GUI.Designer.cs">
+      <DependentUpon>DSHP_GUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_Admin_Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_Admin_Dashboard.Designer.cs">
+      <DependentUpon>GUI_Admin_Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_Admin_DSHocVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_Admin_DSHocVien.Designer.cs">
+      <DependentUpon>GUI_Admin_DSHocVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_Admin_QLHocTap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_Admin_QLHocTap.Designer.cs">
+      <DependentUpon>GUI_Admin_QLHocTap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_Admin_QLLopMo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_Admin_QLLopMo.Designer.cs">
+      <DependentUpon>GUI_Admin_QLLopMo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_Admin_QLQuyDinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_Admin_QLQuyDinh.Designer.cs">
+      <DependentUpon>GUI_Admin_QLQuyDinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_Admin_ThemLopMo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_Admin_ThemLopMo.Designer.cs">
+      <DependentUpon>GUI_Admin_ThemLopMo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HocPhi_GUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HocPhi_GUI.Designer.cs">
+      <DependentUpon>HocPhi_GUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KQHT_GUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KQHT_GUI.Designer.cs">
+      <DependentUpon>KQHT_GUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login_GUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login_GUI.Designer.cs">
+      <DependentUpon>Login_GUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserInformation_GUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInformation_GUI.Designer.cs">
+      <DependentUpon>UserInformation_GUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XemLichThi_GUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XemLichThi_GUI.Designer.cs">
+      <DependentUpon>XemLichThi_GUI.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Dashboard_GUI.resx">
+      <DependentUpon>Dashboard_GUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DKCC_GUI.resx">
+      <DependentUpon>DKCC_GUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DKCC_KQ_GUI.resx">
+      <DependentUpon>DKCC_KQ_GUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DKCD_GUI.resx">
+      <DependentUpon>DKCD_GUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DKCD_KQ_GUI.resx">
+      <DependentUpon>DKCD_KQ_GUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DKHP_DKTL_GUI.resx">
+      <DependentUpon>DKHP_DKTL_GUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DKHP_GUI.resx">
+      <DependentUpon>DKHP_GUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DKHP_KQ_GUI.resx">
+      <DependentUpon>DKHP_KQ_GUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DKHP_LM_GUI.resx">
+      <DependentUpon>DKHP_LM_GUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DSHP_GUI.resx">
+      <DependentUpon>DSHP_GUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_Admin_Dashboard.resx">
+      <DependentUpon>GUI_Admin_Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_Admin_DSHocVien.resx">
+      <DependentUpon>GUI_Admin_DSHocVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_Admin_QLHocTap.resx">
+      <DependentUpon>GUI_Admin_QLHocTap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_Admin_QLLopMo.resx">
+      <DependentUpon>GUI_Admin_QLLopMo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_Admin_QLQuyDinh.resx">
+      <DependentUpon>GUI_Admin_QLQuyDinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_Admin_ThemLopMo.resx">
+      <DependentUpon>GUI_Admin_ThemLopMo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HocPhi_GUI.resx">
+      <DependentUpon>HocPhi_GUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KQHT_GUI.resx">
+      <DependentUpon>KQHT_GUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login_GUI.resx">
+      <DependentUpon>Login_GUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UserInformation_GUI.resx">
+      <DependentUpon>UserInformation_GUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XemLichThi_GUI.resx">
+      <DependentUpon>XemLichThi_GUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BUS\BUS.csproj">
+      <Project>{54ea4fb9-34aa-43dc-a246-3fc50f07ceac}</Project>
+      <Name>BUS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{a0f8a1a6-da5b-487e-87d5-b2820aedd6fc}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-login-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-man-in-blue-jacket-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trung-tam-Tin-hoc-DAI-HOC-KHOA-HOC-TU-NHIEN.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
